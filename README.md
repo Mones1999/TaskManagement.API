@@ -3,7 +3,7 @@ This project was created with .NET 6.0
 
 # Installation
 - Make sure you have `.NET 6.0 SDK` installed on your system.
-- Install `MySQL` if your project uses MySQL.
+- Install `MySQL` on your system.
 - Clone the project using the command: `git clone https://github.com/Mones1999/TaskManagement.API.git`
 
 # Database Setup
