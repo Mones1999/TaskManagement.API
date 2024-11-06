@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TaskManagement.Application.Interfaces;
 using TaskManagement.Core.Entities;
 
 namespace TaskManagement.API.Controllers
 {
+    [Authorize(Policy = "AdminPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class LogsController : ControllerBase
